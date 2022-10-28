@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.select {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.elem {
+    width: 50px;
+    height: 50px;
+    border: 01px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
